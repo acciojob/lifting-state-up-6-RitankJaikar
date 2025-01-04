@@ -8,14 +8,6 @@ const App = () => {
     {
       task: "Learn React",
       isComplete: false
-    },
-    {
-      task: "Build React App",
-      isComplete: false
-    },
-    {
-      task: "Deploy the React app",
-      isComplete: false
     }
   ]);
 
