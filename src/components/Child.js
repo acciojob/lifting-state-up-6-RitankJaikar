@@ -20,7 +20,7 @@ export default function Child({todos, setTodos}) {
                         return (
                             <li key={i}>
                                 <span>{todo.task}</span>
-                                <button onClick={() => handleComplete(i)}>Complete</button>
+                                {!todo.isComplete && <button onClick={() => handleComplete(i)}>Complete</button>}
                             </li>
                         )
                     })
