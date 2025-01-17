@@ -1,1 +1,11 @@
+li > button {
+    border: 3px solid black;
+}
 
+li:first-child button {
+    background-color: red;
+}
+
+ul > :nth-child(3) button {
+    background-color: green;
+}
